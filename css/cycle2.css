@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cycle-slideshow{width: auto; height: auto;}
+.cycle-slideshow div{ /*width: auto;*/ height: auto; text-align:center; overflow-x:hidden;}
+.cycle-slideshow div img{width:100%; height: auto;}
+.cycle-pager { 
+    text-align: center; width: 100%; z-index: 500; position: absolute; bottom: 10px; overflow: hidden;
+}
+.cycle-pager span { border-radius:100%; 
+    font-family: arial; font-size: 50px; width: 20px; height: 20px; 
+    display: inline-block; color: #ddd; cursor: pointer;  background:#fff; margin-right:5px;  
+	-moz-box-shadow:inset 4px 5px 3px #666;
+	-webkit-box-shadow:inset 4px 5px 3px #666;
+	box-shadow:inset 4px 5px 3px #666;
+}
+.cycle-pager span:hover{background: #a4d81f;}
+
+.cycle-pager span.cycle-pager-active { color: #D69746; background:#a4d81f;}
+.cycle-pager > * { cursor: pointer;}
+
+#outside{position:relative; }
+.arrow_center{display:block; width:100% !important; position:absolute; top:50%; z-index:9999; background:#0C6; margin-top:-16px;}
+.prev, .next{position:absolute; width:22px; height:32px;}
+.prev{left:-30px; background:url(../images/prev.png) no-repeat center top;}
+.prev:hover{background:url(../images/prev.png) no-repeat center bottom;}
+.next{right:-30px; background:url(../images/next.png) no-repeat center top;}
+.next:hover{background:url(../images/next.png) no-repeat center bottom;}
+
+.prev_product, .next_product{position:absolute; width:22px; height:32px;}
+.prev_product{left:-30px; background:url(../images/prev.png) no-repeat center top;}
+.prev_product:hover{background:url(../images/prev.png) no-repeat center bottom;}
+.next_product{right:-30px; background:url(../images/next.png) no-repeat center top;}
+.next_product:hover{background:url(../images/next.png) no-repeat center bottom;}
+
+
+
+@media all and (max-width:768px){
+	.cycle-pager{bottom:4px;}
+	.cycle-pager span {width:16px; height:16px; 
+	-moz-box-shadow:inset 3px 3px 2px #454545;
+	-webkit-box-shadow:inset 3px 3px 2px #454545;
+	box-shadow:inset 3px 3px 2px #454545;}
+	
+	.cycle-slideshow div{height:auto;}
+	.prev, .prev_product{left:-20px;}
+	.next, .next_product{right:-20px; }
+}
+

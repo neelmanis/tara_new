@@ -1,0 +1,136 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+
+<div class="navigation">
+        
+        	<ul class="menu">
+            <li data-cat="maincategory_1"><a href="#">What’s new</a></li>
+            <li data-cat="maincategory_2"><a href="#">Jewellery</a></li>
+            <li data-cat="maincategory_3"><a href="#">Solitaires</a></li>
+            <li data-cat="maincategory_4"><a href="#">Coins</a></li>
+            <li data-cat="maincategory_5"><a href="#">Collections</a></li>
+            <li data-cat="maincategory_6"><a href="#">Gifts</a></li>
+            <li data-cat="maincategory_7"><a href="#">Try @ home</a></li>
+            <li data-cat="maincategory_8"><a href="#">Best buys</a></li>
+            <li data-cat="maincategory_9"><a href="../tara_my_karigar.html">Tara My Karigar</a></li>
+            </ul>
+  
+
+			<div class="menu_box clearfix fade_anim half_nav" id="maincategory_1" style="display:none;">
+            
+                <div class="sub_cat clearfix">
+                    <ul>
+                    <li data-cat="subcategory_a1"><a href="#"> Category 1 </a></li>
+                    <li data-cat="subcategory_a2"><a href="#"> Category 2 </a></li>
+                    <li data-cat="subcategory_a3"><a href="#"> Category 3 </a></li>
+                    </ul>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_a1">
+                    <div class="half_link"><a href="#"><img src="../images/menu/newww/1.jpg"> Engagement Rings</a></div>
+                    <div class="half_link"><a href="#"><img src="../images/menu/newww/1.jpg"> Engagement Rings</a></div>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_a2" style="display:none">
+                    <div class="half_link"><a href="#"><img src="../images/menu/pendents/1.jpg"> Pendent 1  </a></div>
+                    <div class="half_link"><a href="#"><img src="../images/menu/pendents/2.jpg"> Pendent 2 </a></div>
+                 </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_a3" style="display:none">
+                    <div class="half_link"><a href="#"><img src="../images/menu/necklaces/1.jpg"> Necklaces 1 </a></div>
+                    <div class="half_link"><a href="#"><img src="../images/menu/necklaces/2.jpg"> Necklaces 2 </a></div>
+                </div>
+
+            </div>
+            
+                                    
+            <!---->
+            
+             
+            <div class="menu_box clearfix fade_anim" id="maincategory_2" style="display:none;">
+            
+                <div class="sub_cat clearfix">
+                    <ul>
+                    <li data-cat="subcategory_1"><a href="#">Rings</a></li>
+                    <li data-cat="subcategory_2"><a href="#">Pendants Sets</a></li>
+                    <li data-cat="subcategory_3"><a href="#">Necklaces Sets</a></li>
+                    <li data-cat="subcategory_4"><a href="#">Tanmaniya</a></li>
+                    <li data-cat="subcategory_5"><a href="#">Bangles & Bracelets</a></li>
+                    <li data-cat="subcategory_6"><a href="#">Earring</a></li>
+                    <li data-cat="subcategory_7"><a href="#">Pendants & Chains</a></li>
+                    <li data-cat="subcategory_8"><a href="#">Nosepins</a></li>
+                    </ul>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_1">
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_1.jpg"> Daily Rings </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_2.jpg"> Cocktail Rings </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_3.jpg"> Bands </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_4.jpg"> Mens Rings </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_5.jpg"> Couple Bands </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_6.jpg"> Fashion Rings </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_7.jpg"> Solitaires </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_8.jpg"> Engagement Rings</a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_9.jpg"> Bridal Rings</a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/rings/ring_10.jpg"> All Rings</a></div>
+ 
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_2" style="display:none">
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/1.jpg"> Pendent 1  </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/2.jpg"> Pendent 2 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/3.jpg"> Pendent 3 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/4.jpg"> Pendent 4 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/5.jpg"> Pendent 5 </a></div>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_3" style="display:none">
+                    <div class="link"><a href="#"><img src="../images/menu/necklaces/1.jpg"> Necklaces 1 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/necklaces/2.jpg"> Necklaces 2 </a></div>
+                    
+                    <div class="navvv_bg_style">  <img src="../images/nav_bg.png">   </div>
+                    
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_4" style="display:none">
+                    <div class="link"><a href="#"><img src="../images/menu/tanmaniyas/1.jpg"> Tanmaniya 1 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/tanmaniyas/2.jpg"> Tanmaniya 2 </a></div>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_5" style="display:none">
+                    <div class="link"><a href="#"><img src="../images/menu/bangles/1.jpg"> Bangles 1 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/bangles/2.jpg"> Bangles 2 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/bangles/3.jpg"> Bangles 3 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/bangles/4.jpg"> Bangles 4 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/bangles/5.jpg"> Bangles 5 </a></div>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_6" style="display:none">
+                    <div class="link"><a href="#"><img src="../images/menu/earrings/1.jpg"> Earrings 1 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/earrings/2.jpg"> Earrings 2 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/earrings/3.jpg"> Earrings 3 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/earrings/4.jpg"> Earrings 4 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/earrings/5.jpg"> Earrings 5 </a></div>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_7" style="display:none">
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/1.jpg"> Pendent 1  </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/2.jpg"> Pendent 2 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/3.jpg"> Pendent 3 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/4.jpg"> Pendent 4 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/pendents/5.jpg"> Pendent 5 </a></div>
+                </div>
+                
+                <div class="sub_subcat clearfix" id="subcategory_8" style="display:none">
+                    <div class="link"><a href="#"><img src="../images/menu/nosepin/1.jpg"> Nosepin 1  </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/nosepin/2.jpg"> Nosepin 2 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/nosepin/3.jpg"> Nosepin 3 </a></div>
+                    <div class="link"><a href="#"><img src="../images/menu/nosepin/4.jpg"> Nosepin 4 </a></div>
+                </div>
+                  
+            </div>
+ 
+        </div> 

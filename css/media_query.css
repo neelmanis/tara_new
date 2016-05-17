@@ -1,0 +1,124 @@
+
+@media (max-width:999px){
+ 	
+ }
+	
+	
+	
+
+@media (max-width: 768px) {
+.product_list .prod_info .prod_name {  font-size:18px;  }
+.box_btn { font-size:12px; }
+
+
+.footer .foot_top .foot_links {width:48%; min-height:200px; float:left; display:inline-block; margin:0px 2% 0px 0px;  }
+.card_div div { width:100%; float:inherit; text-align:center; }
+
+ 
+.media_style li { width:21%; }
+
+
+.award_list_style li { width:29%; min-height:inherit; float:left; margin-right:2%; margin-left:2%; margin-top:30px;  }
+
+
+.know_diamond_img { width:70%; }
+}
+
+
+
+ 
+	
+	
+	
+@media (max-width:600px){	
+
+.product_list { width:47%; float:left; clear:right; }
+.video_box {width:90%; float:inherit; margin:0px auto; display:table; margin-bottom:30px; }
+ 
+/*.equate { display:none; }*/
+
+.right_boxxx { position:relative; } 
+.media_style li { width:44%; }
+
+ 
+ 
+.get_touch_left { width:100%; height:auto; float:left; }
+.get_touch_right { width:100%; height:auto; float:right; }
+
+.filters_box .title h1 { font-size:18px; margin-top:0px; }
+.product_details h1{ font-size:18px; margin-top:0px; margin-bottom:10px; }
+
+.btn_hold span { display:none; }
+.inner_container .title_wrp { font-size: 18px; }
+
+.awards_left { width:100%; } 
+.awards_right { width:100%; } 
+}
+	
+
+
+
+	 
+ 
+	  
+ 
+			 
+			 
+ @media (max-width:430px){
+	 
+/*.cat_banner1 .left_side {width:100%; margin-bottom:20px; }
+.cat_banner1 .right_side {width:100%; }
+ 
+.cat_banner2 .left_side {width:100%; margin-bottom:20px; }
+.cat_banner2 .right_side {width:100%; }
+
+
+.cat_banner3 .left_side {width:100%; margin-bottom:20px; }
+.cat_banner3 .right_side {width:100%; }*/
+
+ 
+.footer .foot_top .foot_links {width:100%; min-height:inherit; float:left; display:inline-block; margin-bottom:10px; }
+ 
+.product_list { width:90%; float:inherit; margin:30px auto; display:table; clear:right; background:#fff; border:1px solid #fff; position:relative;}
+.product_list .prod_info .prod_name {  font-size:18px;  }
+.box_btn { font-size:12px; }
+
+.about_img { width:100%; float:inherit; margin-bottom:20px; margin-left:inherit; }
+.karagir_img {  width:100%; float:inherit; margin-bottom:20px; margin-right:inherit;  }
+ 
+.certificate_img { width:80%; float:inherit; margin:0px auto; margin-bottom:20px; }
+.know_diamond_img { width:100%; }
+.media_style li { width:70%; height:200px; margin:30px auto !important; margin-right:inherit; float:inherit; margin-bottom:30px;  } 
+.review_wrap span { width:100%; padding-top:7px; padding-bottom:5px; }
+.review_wrap input[type="text"]{ width:100%; float:inherit !important; margin:10px auto; display:table;  }
+.review_wrap textarea{ width:100%; }
+.security_wrp .captcha_bg { margin:0px auto; display:table; float:inherit;  }
+.footer .foot_top .foot_links .tl { font-size:18px; }
+.award_list_style li { width:40%; min-height:inherit; float:left; margin-right:5%; margin-left:5%; margin-top:30px;  }
+
+.awards_right { float:inherit;  margin-top:50px;  } 
+.award_img_style { width:50%; margin:10px auto; margin:0px auto; float:inherit; display:table; }
+
+
+.TMK_img { width:70%; height:auto; float:inherit; margin:0px auto !important; display:table; margin-left:inherit; margin-bottom:20px !important; }
+}
+	  
+	  
+	
+ 
+
+
+
+ 
+@media (max-width:401px){
+ .award_list_style li { width:70%; margin:30px auto !important; display:table; min-height:inherit; float:inherit; margin-right:inherit; margin-left:inherit;  }
+}
+	
+	
+	
+	
+	
+@media (min-width:770px) and (max-width:1188px){
+.award_list_style li { width:27%; min-height:inherit; float:left; margin-right:3%; margin-left:3%; margin-top:30px; }
+}
+ 

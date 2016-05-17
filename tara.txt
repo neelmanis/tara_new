@@ -1,0 +1,157 @@
+
+Database :  kwebcpan_tara_db
+User     :  kwebcpan_tara
+Password :  g11Sc?kSby=]
+
+https://50.62.23.6:2083
+
+
+CREATE TABLE IF NOT EXISTS `get_in_touch` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `post_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `modified_date` datetime NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `contact` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,  
+  `subject` varchar(255) NOT NULL,
+  `enquiry` text NOT NULL,
+  `ip` text NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+CREATE TABLE IF NOT EXISTS `subscribe_newsletter` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `post_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `email` varchar(255) NOT NULL,  
+  `ip` text NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+Add 2 files for karigar 
+nav_menu.php
+tara_my_karigar.php
+
+
+if u want to use image in sub subcategory background then add one more field background image in sub subcategory
+sub_subcategory table add in all subcategory background image
+nav-menu.php
+
+***** Done in  mylocal
+
+<div class="link"><a href="product_list.php?subCategID=<?php echo $resP['sub_cat_id']; ?>&sub_subCatid=<?php echo $resP['id']; ?>"><img src="../tara/taraadmin/subcat_image/<?php echo $resP['image'];?>"> <div class="pro_title_style"> <?php echo $resP['name'];?>  </div><div class="navvv_bg_style"><?php if($resP['background_image']){?><img src="images/<?php echo $resP['background_image'];?>"><?php }else { ?><img src="images/default.jpg"><?php } ?></div>
+
+<div class="link">hi<a href="product_list.php?id=<?php echo $resP['id']; ?>&uri=<?php echo $resP['sub_cat_id']; ?>">
+<img src="../tara/taraadmin/subcat_image/<?php echo $resP['image'];?>"> <div class="pro_title_style"> <?php echo $resP['name'];?>  </div>   </a>
+<div class="navvv_bg_style"><img src="taraadmin/subcat_image/<?php echo $resP['image'];?>"> </div></div>	
+
+***********************************************************************************************
+<?php 
+					$sqlQ="SELECT c.image as img, s.*
+FROM sub_subcategory as S LEFT JOIN  subcategory as c ON c.id=s.sub_cat_id and s.cat_id=1 group by s.sub_cat_id";
+					//$sqlQ="select * from sub_subcategory where cat_id=1 group by sub_cat_id";
+					$resultQ = mysql_query($sqlQ);
+					 while($resQ = mysql_fetch_assoc($resultQ))
+				{	
+					  $sqlP="select * from sub_subcategory where sub_cat_id=".$resQ['sub_cat_id'];
+					$resultP = mysql_query($sqlP); ?>
+					<div class="sub_subcat clearfix" id="subcategory_<?php echo $resQ['sub_cat_id'] ?>" style="display:none">
+			<?php		while($resP =  mysql_fetch_assoc($resultP) )
+					{  ?>						
+					<div class="link"><a href="product_list.php?subCategID=<?php echo $resP['sub_cat_id']; ?>&sub_subCatid=<?php echo $resP['id']; ?>"><img src="../tara/taraadmin/subcat_image/<?php echo $resP['image'];?>"> <div class="pro_title_style"> <?php echo $resP['name'];?>  </div>   </a></div>	
+					<div class="navvv_bg_style">
+			<?php if($resQ['img']!=''){?><img src="../tara/taraadmin/sub_cat_image/<?php echo $resQ['img'];?>"><?php }else { ?><img src="images/default.jpg"><?php } ?>
+			</div>
+			
+			<?php } ?>
+			</div>
+			
+		 <?php } ?>               
+***********************************************************************************************
+Admin
+** Remove Image From Sub Category
+** Remove Video Url From Category
+
+echo"<script type=\"text/javascript\">". "alert('success');".     "</script>";
+
+
+What's New & Collection Same
+
+Solitares  (category)
+Rings
+Earings
+Pendants
+
+coins (category)
+Gold
+Silver
+
+Collections (category)
+
+
+nav-menu.php
+product_list.php
+function.php
+
+
+index.php
+footer.php
+product_list.php
+product_details.php
+
+
+If No products found set Banner:-
+
+<div class="video_box box_shdw equate">
+<div class="video_container">
+<?php
+if($num == '0'){
+echo 'No products';
+}else{
+if($video!='' )
+{ echo $video;
+}else{?>
+<iframe src="https://www.youtube.com/embed/VrTQ9UgyoEY?autoplay=0&amp;loop=1&amp;playlist=VrTQ9UgyoEY&amp;controls=1&amp;showinfo=0;rel=0" frameborder="0" allowtransparency="true" allowfullscreen></iframe>	
+<?php }
+ }  ?>
+</div>
+</div>
+
+
+
+
+06 Apr
+-----
+Admin:-
+product_add
+product_edit
+
+Front:-
+product_list.php
+product_details.php
+nav-menu.php
+
+
+https://phptechnologytutorials.wordpress.com/2014/12/14/recursive-category-tree-in-php-and-mysql/
+
+footer.php
+about.php
+tara_my_karigar
+awards_recognitions
+media
+carrers
+disclamiar
+jewellerycare
+know_your_diamond.php
+certification.php
+get_in_touch.php
+
+*** 09 may
+Admin
+product_add.php
+product_edit.php
+
+Front
+product_list.php
+index.php
+
+mobile_nav.css mobile_nav.js
